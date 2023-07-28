@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Execute Search",
+    "line": 1,
+    "id": "execute-search",
+    "tags": [],
+    "uri": "Search.feature",
+    "elements": [
+      {
+        "id": "execute-search;search-for-pre-prints-by-a-term",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Search for pre-prints by a term",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user has navigated to the URL \"https://mobilityrxiv.sae.org/\"",
+            "result": {
+              "status": "passed",
+              "duration": 3097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user searches for \"SAE-PP-00223\"",
+            "result": {
+              "status": "passed",
+              "duration": 1029000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on the first result",
+            "result": {
+              "status": "passed",
+              "duration": 2684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the id \"SAE-PP-00223\" is present under the title",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

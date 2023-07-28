@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://mobilityrxiv.sae.org/",
+    "ignoreTestFiles": [
+        "*.js",
+        "*.md"
+    ],
+    "testFiles": "**/features/*.feature"
+    
+}
